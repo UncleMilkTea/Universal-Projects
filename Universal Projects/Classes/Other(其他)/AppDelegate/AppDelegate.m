@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "SUNewfeatureController.h"
 #import "SUTabBarController.h"
-#import "SUAppLaunchTool.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +20,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    [SUAppLaunchTool appLaunchSetting];
 
     // 1.创建并显示窗口
     self.window = [[UIWindow alloc] init];

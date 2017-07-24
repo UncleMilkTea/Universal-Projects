@@ -7,6 +7,7 @@
 //
 
 #import "SUSharedTool.h"
+#import <UMengUShare/UMSocialCore/UMSocialCore.h>
 
 @implementation SUSharedTool
 

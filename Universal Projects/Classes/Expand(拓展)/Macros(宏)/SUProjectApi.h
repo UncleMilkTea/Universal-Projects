@@ -17,7 +17,8 @@
 
 //================================================================
 //              1 == 线上环境  0 == 测试环境
-#if [SUConfigurationManager sharedInstance].SUEnvironmentConfiguration
+#if 0
+//[SUConfigurationManager sharedInstance].SUEnvironmentConfiguration;
 
 #define baseURLString @"" // 线上
 #define systemConfig @"http://api.91dgj.com/v1/app/systemConfig/getSystemConfig"

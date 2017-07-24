@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Suger. All rights reserved.
 //
 
-#import "SUBasicRequest.h"
+#import <Foundation/Foundation.h>
 
-@interface HomePageRequest : SUBasicRequest
+@interface HomePageRequest :NSObject
 
 @end

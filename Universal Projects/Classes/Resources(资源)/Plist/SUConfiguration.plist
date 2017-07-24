@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RequestTimeout</key>
+	<integer>20</integer>
+	<key>EnvironmentConfiguration</key>
+	<true/>
+	<key>ProjectApi</key>
+	<dict>
+		<key>public_url</key>
+		<string>http://api.91dgj.com/v1/</string>
+		<key>login_url</key>
+		<string>http://api.91dgj.com/api/v1/</string>
+	</dict>
+	<key>RefreshImage</key>
+	<string>loading</string>
+	<key>RefreshCount</key>
+	<integer>2</integer>
+	<key>TabBarItems</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>首页</string>
+			<key>ImageName</key>
+			<string>tab_bar_home</string>
+			<key>SelectedImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>及时送</string>
+			<key>ImageName</key>
+			<string>tab_bar_timely</string>
+			<key>SelectedImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>购物车</string>
+			<key>ImageName</key>
+			<string>tab_bar_shop_cart</string>
+			<key>SelectedImage</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>我的</string>
+			<key>ImageName</key>
+			<string>tab_bar_home</string>
+			<key>SelectedImage</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>NewfeatureCount</key>
+	<integer>5</integer>
+</dict>
+</plist>

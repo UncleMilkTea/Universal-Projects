@@ -55,3 +55,5 @@ UIKIT_EXTERN NSString *const SULogin_url;
 UIKIT_EXTERN NSString *const SUPublic_url;
 UIKIT_EXTERN NSString *const SUEnvironmentConfiguration;
 UIKIT_EXTERN NSString *const SUConfiguration;
+UIKIT_EXTERN NSString *const SUNotificationAutoLoginSuccess;
+UIKIT_EXTERN NSString *const SUNotificationLoginStateChange;

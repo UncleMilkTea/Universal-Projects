@@ -5,12 +5,14 @@ target 'Universal Projects' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod 'Masonry'
+  pod 'YYKit'
   pod 'MJRefresh'
   pod 'SDWebImage'
   pod 'AFNetworking'
   pod 'MJExtension'
   pod 'SDCycleScrollView'
   pod 'SVProgressHUD'
+  pod 'RealReachability'
   
   # 集成微信(精简版0.2M)
   pod 'UMengUShare/Social/ReducedWeChat'

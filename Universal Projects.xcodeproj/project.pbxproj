@@ -11,6 +11,12 @@
 		96067A861EA0C4FB00174276 /* Universal_ProjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96067A851EA0C4FB00174276 /* Universal_ProjectsTests.m */; };
 		96067A911EA0C4FB00174276 /* Universal_ProjectsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96067A901EA0C4FB00174276 /* Universal_ProjectsUITests.m */; };
 		F68FBCC4F297188C5A776D52 /* libPods-Universal ProjectsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32479B3A6AF9AA12A141B740 /* libPods-Universal ProjectsTests.a */; };
+		FA297BED1F42E37900EB2660 /* SUAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA297BEC1F42E37900EB2660 /* SUAppManager.m */; };
+		FA297BF01F42E38A00EB2660 /* SUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA297BEF1F42E38A00EB2660 /* SUShareManager.m */; };
+		FA297BF41F42E52300EB2660 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA297BF31F42E52300EB2660 /* YYFPSLabel.m */; };
+		FA297BF81F42E5B100EB2660 /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA297BF71F42E5B100EB2660 /* AdPageView.m */; };
+		FA297BFB1F42E66A00EB2660 /* SUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA297BFA1F42E66A00EB2660 /* SUWebViewController.m */; };
+		FA895F901F2725B8008E8738 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = FA895F8F1F2725B8008E8738 /* AppDelegate+AppService.m */; };
 		FABFA0E31F25E10800C680C9 /* SUBasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFA0171F25E10800C680C9 /* SUBasicModel.m */; };
 		FABFA0E41F25E10800C680C9 /* SUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFA0191F25E10800C680C9 /* SUViewController.m */; };
 		FABFA0E71F25E10800C680C9 /* UIView+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFA0211F25E10800C680C9 /* UIView+SU.m */; };
@@ -32,7 +38,8 @@
 		FABFA1181F25E10800C680C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFA0A21F25E10800C680C9 /* main.m */; };
 		FABFA11A1F25E10800C680C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABFA0A61F25E10800C680C9 /* Assets.xcassets */; };
 		FABFA11C1F25E10800C680C9 /* SUConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = FABFA0AA1F25E10800C680C9 /* SUConfiguration.plist */; };
-		FABFA1331F25E10800C680C9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFA0E11F25E10800C680C9 /* Reachability.m */; };
+		FAE2E6F11F3316BA00078A03 /* SVProgressHUD+SU.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2E6F01F3316BA00078A03 /* SVProgressHUD+SU.m */; };
+		FAE2E6F41F33262B00078A03 /* SUUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2E6F31F33262B00078A03 /* SUUserManager.m */; };
 		FF3520DA2A54D5FC87327A5E /* libPods-Universal Projects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05114AC43120C641FEAFF5D3 /* libPods-Universal Projects.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +77,18 @@
 		96067A8C1EA0C4FB00174276 /* Universal ProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Universal ProjectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96067A901EA0C4FB00174276 /* Universal_ProjectsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Universal_ProjectsUITests.m; sourceTree = "<group>"; };
 		96067A921EA0C4FB00174276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA297BEB1F42E37900EB2660 /* SUAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUAppManager.h; sourceTree = "<group>"; };
+		FA297BEC1F42E37900EB2660 /* SUAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUAppManager.m; sourceTree = "<group>"; };
+		FA297BEE1F42E38A00EB2660 /* SUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUShareManager.h; sourceTree = "<group>"; };
+		FA297BEF1F42E38A00EB2660 /* SUShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUShareManager.m; sourceTree = "<group>"; };
+		FA297BF21F42E52300EB2660 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		FA297BF31F42E52300EB2660 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		FA297BF61F42E5B100EB2660 /* AdPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPageView.h; sourceTree = "<group>"; };
+		FA297BF71F42E5B100EB2660 /* AdPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPageView.m; sourceTree = "<group>"; };
+		FA297BF91F42E66A00EB2660 /* SUWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUWebViewController.h; sourceTree = "<group>"; };
+		FA297BFA1F42E66A00EB2660 /* SUWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUWebViewController.m; sourceTree = "<group>"; };
+		FA895F8E1F2725B8008E8738 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		FA895F8F1F2725B8008E8738 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
 		FABFA0161F25E10800C680C9 /* SUBasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUBasicModel.h; sourceTree = "<group>"; };
 		FABFA0171F25E10800C680C9 /* SUBasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUBasicModel.m; sourceTree = "<group>"; };
 		FABFA0181F25E10800C680C9 /* SUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUViewController.h; sourceTree = "<group>"; };
@@ -111,8 +130,10 @@
 		FABFA0A31F25E10800C680C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FABFA0A61F25E10800C680C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABFA0AA1F25E10800C680C9 /* SUConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SUConfiguration.plist; sourceTree = "<group>"; };
-		FABFA0E01F25E10800C680C9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		FABFA0E11F25E10800C680C9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FAE2E6EF1F3316BA00078A03 /* SVProgressHUD+SU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+SU.h"; sourceTree = "<group>"; };
+		FAE2E6F01F3316BA00078A03 /* SVProgressHUD+SU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+SU.m"; sourceTree = "<group>"; };
+		FAE2E6F21F33262B00078A03 /* SUUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUUserManager.h; sourceTree = "<group>"; };
+		FAE2E6F31F33262B00078A03 /* SUUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUUserManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +235,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FA297BF11F42E52300EB2660 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FA297BF21F42E52300EB2660 /* YYFPSLabel.h */,
+				FA297BF31F42E52300EB2660 /* YYFPSLabel.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		FA297BF51F42E5B100EB2660 /* AdPage */ = {
+			isa = PBXGroup;
+			children = (
+				FA297BF61F42E5B100EB2660 /* AdPageView.h */,
+				FA297BF71F42E5B100EB2660 /* AdPageView.m */,
+			);
+			path = AdPage;
+			sourceTree = "<group>";
+		};
 		FABFA0131F25E10800C680C9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +273,8 @@
 				FABFA0171F25E10800C680C9 /* SUBasicModel.m */,
 				FABFA0181F25E10800C680C9 /* SUViewController.h */,
 				FABFA0191F25E10800C680C9 /* SUViewController.m */,
+				FA297BF91F42E66A00EB2660 /* SUWebViewController.h */,
+				FA297BFA1F42E66A00EB2660 /* SUWebViewController.m */,
 			);
 			path = "Base(基本)";
 			sourceTree = "<group>";
@@ -256,6 +297,8 @@
 			children = (
 				FABFA0201F25E10800C680C9 /* UIView+SU.h */,
 				FABFA0211F25E10800C680C9 /* UIView+SU.m */,
+				FAE2E6EF1F3316BA00078A03 /* SVProgressHUD+SU.h */,
+				FAE2E6F01F3316BA00078A03 /* SVProgressHUD+SU.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -303,6 +346,12 @@
 				FABFA0541F25E10800C680C9 /* SUConfigurationManager.m */,
 				FABFA0551F25E10800C680C9 /* SUSharedTool.h */,
 				FABFA0561F25E10800C680C9 /* SUSharedTool.m */,
+				FAE2E6F21F33262B00078A03 /* SUUserManager.h */,
+				FAE2E6F31F33262B00078A03 /* SUUserManager.m */,
+				FA297BEB1F42E37900EB2660 /* SUAppManager.h */,
+				FA297BEC1F42E37900EB2660 /* SUAppManager.m */,
+				FA297BEE1F42E38A00EB2660 /* SUShareManager.h */,
+				FA297BEF1F42E38A00EB2660 /* SUShareManager.m */,
 			);
 			path = "Tool(工具类)";
 			sourceTree = "<group>";
@@ -578,6 +627,8 @@
 			children = (
 				FABFA09F1F25E10800C680C9 /* AppDelegate.h */,
 				FABFA0A01F25E10800C680C9 /* AppDelegate.m */,
+				FA895F8E1F2725B8008E8738 /* AppDelegate+AppService.h */,
+				FA895F8F1F2725B8008E8738 /* AppDelegate+AppService.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -610,18 +661,10 @@
 		FABFA0AC1F25E10800C680C9 /* Vendors(第三方) */ = {
 			isa = PBXGroup;
 			children = (
-				FABFA0DF1F25E10800C680C9 /* Reachability(网络检测) */,
+				FA297BF51F42E5B100EB2660 /* AdPage */,
+				FA297BF11F42E52300EB2660 /* YYFPSLabel */,
 			);
 			path = "Vendors(第三方)";
-			sourceTree = "<group>";
-		};
-		FABFA0DF1F25E10800C680C9 /* Reachability(网络检测) */ = {
-			isa = PBXGroup;
-			children = (
-				FABFA0E01F25E10800C680C9 /* Reachability.h */,
-				FABFA0E11F25E10800C680C9 /* Reachability.m */,
-			);
-			path = "Reachability(网络检测)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -905,6 +948,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABFA0E41F25E10800C680C9 /* SUViewController.m in Sources */,
+				FA297BF01F42E38A00EB2660 /* SUShareManager.m in Sources */,
 				FABFA0E31F25E10800C680C9 /* SUBasicModel.m in Sources */,
 				FABFA1021F25E10800C680C9 /* HomePageRequest.m in Sources */,
 				FABFA1001F25E10800C680C9 /* SUHomeViewController.m in Sources */,
@@ -912,15 +956,21 @@
 				FABFA0FD1F25E10800C680C9 /* SUSharedTool.m in Sources */,
 				FABFA0ED1F25E10800C680C9 /* SUDataBasic.m in Sources */,
 				FABFA1151F25E10800C680C9 /* SUTabBarController.m in Sources */,
+				FA297BFB1F42E66A00EB2660 /* SUWebViewController.m in Sources */,
+				FA297BF81F42E5B100EB2660 /* AdPageView.m in Sources */,
 				FABFA0E71F25E10800C680C9 /* UIView+SU.m in Sources */,
+				FA297BED1F42E37900EB2660 /* SUAppManager.m in Sources */,
 				FABFA10A1F25E10800C680C9 /* SUNewfeatureController.m in Sources */,
 				FABFA0FC1F25E10800C680C9 /* SUConfigurationManager.m in Sources */,
 				FABFA1071F25E10800C680C9 /* SUNavigationController.m in Sources */,
+				FAE2E6F41F33262B00078A03 /* SUUserManager.m in Sources */,
+				FA895F901F2725B8008E8738 /* AppDelegate+AppService.m in Sources */,
 				FABFA1121F25E10800C680C9 /* SUManagerTool.m in Sources */,
 				FABFA1111F25E10800C680C9 /* SUAccountTool.m in Sources */,
+				FA297BF41F42E52300EB2660 /* YYFPSLabel.m in Sources */,
 				FABFA0EA1F25E10800C680C9 /* SUConst.m in Sources */,
-				FABFA1331F25E10800C680C9 /* Reachability.m in Sources */,
 				FABFA10E1F25E10800C680C9 /* SUAccount.m in Sources */,
+				FAE2E6F11F3316BA00078A03 /* SVProgressHUD+SU.m in Sources */,
 				FABFA1181F25E10800C680C9 /* main.m in Sources */,
 				FABFA1161F25E10800C680C9 /* AppDelegate.m in Sources */,
 			);

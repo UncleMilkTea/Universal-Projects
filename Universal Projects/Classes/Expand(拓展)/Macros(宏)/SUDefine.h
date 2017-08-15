@@ -21,6 +21,27 @@
 #define SULog(...)
 #endif
 
+//拼接字符串
+#define NSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
+
+//获取系统对象
+#pragma mark - 获取系统对象
+#define KApplication        [UIApplication sharedApplication]
+#define kAppWindow          [UIApplication sharedApplication].delegate.window
+#define kAppDelegate        [AppDelegate sharedInstance]
+#define kRootViewController [UIApplication sharedApplication].delegate.window.rootViewController
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+#define kPostNotification(name,obj) [kNotificationCenter postNotificationName:name object:obj]
+#define kObserverNotification(self,selectorName,notifiName) [kNotificationCenter addObserver:self selector:@selector(selectorName)name:notifiName object:nil]
+#define kUserDefaultSave(object,key) [kUserDefaults setObject:object forKey:key];[kUserDefaults synchronize]
+#define kUserDefaultGet(key) [kUserDefaults objectForKey:key]
+
+
+
+
+
+
 #pragma mark - 硬件参数
 // 系统版本
 #define iOS7  ([[[[UIDevice currentDevice]systemVersion]substringToIndex:1] doubleValue]>=7)

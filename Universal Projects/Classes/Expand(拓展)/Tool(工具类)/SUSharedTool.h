@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <UShareUI/UShareUI.h>
-//#import <UMSocialCore/UMSocialCore.h>
+#import <UMSocialCore/UMSocialCore.h>
 
 @interface SUSharedTool : NSObject
 

@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SUTabBarController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, strong) SUTabBarController *mainTabBar;
 
 @end
 

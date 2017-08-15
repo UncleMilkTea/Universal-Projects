@@ -1,13 +1,13 @@
 //
-//  SUBasicModel.h
+//  SUUserManager.h
 //  Universal Projects
 //
-//  Created by 侯 on 2017/4/16.
+//  Created by zhangsh on 2017/8/3.
 //  Copyright © 2017年 Suger. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SUBasicModel : NSObject
+@interface SUUserManager : NSObject
 
 @end

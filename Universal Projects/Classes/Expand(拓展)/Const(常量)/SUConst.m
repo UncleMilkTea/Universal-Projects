@@ -52,3 +52,9 @@ NSString *const SUPublic_url = @"public_url";
 NSString *const SUEnvironmentConfiguration = @"EnvironmentConfiguration";
 NSString *const SUConfiguration = @"SUConfiguration.plist";
 
+NSString *const SUNotificationAutoLoginSuccess = @"SUNotificationAutoLoginSuccess";
+
+//登录状态改变通知
+NSString *const SUNotificationLoginStateChange = @"loginStateChange";
+
+

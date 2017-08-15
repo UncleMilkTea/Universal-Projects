@@ -45,8 +45,8 @@ extern NSString * const _kSUNetworkFailure;
 extern NSString * const _kSUCheckNetwork;
 /// 网络连接失败,请稍后重试
 extern NSString * const _kSUNetworkFailureLaterOption;
-/// 已切换到3G网络
-extern NSString * const _kSUNetworkChange3G;
+/// 已切换到3G/4G网络
+extern NSString * const _kSUNetworkChange3G4G;
 /// 已切换到WiFi网络
 extern NSString * const _kSUNetworkChangeWiFi;
 /// 亲、当前无网络,请连接网络后重试

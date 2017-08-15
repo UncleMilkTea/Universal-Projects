@@ -152,12 +152,7 @@
 {
     _startBtn.alpha = 0;
     double page = scrollView.contentOffset.x / scrollView.width;
-    // 四舍五入计算出页码
     self.pageControl.currentPage = (int)(page + 0.5);
-    // 1.3四舍五入 1.3 + 0.5 = 1.8 强转为整数(int)1.8= 1
-    // 1.5四舍五入 1.5 + 0.5 = 2.0 强转为整数(int)2.0= 2
-    // 1.6四舍五入 1.6 + 0.5 = 2.1 强转为整数(int)2.1= 2
-    // 0.7四舍五入 0.7 + 0.5 = 1.2 强转为整数(int)1.2= 1
     if (self.pageControl.currentPage == self.NewfeatureCount-1) {
         [UIView animateWithDuration:0.5 animations:^{
             _startBtn.alpha = 1;

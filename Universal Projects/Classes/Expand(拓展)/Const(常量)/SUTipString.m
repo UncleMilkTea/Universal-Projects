@@ -31,7 +31,7 @@ NSString * const _kSUNoneNetwork                      =       @"当前网络不�
 NSString * const _kSUNetworkFailure                   =       @"网络连接失败";
 NSString * const _kSUNetworkFailureLaterOption        =       @"网络连接失败,请稍后重试";
 NSString * const _kSUCheckNetwork                     =       @"请检查网络设置";
-NSString * const _kSUNetworkChange3G                  =       @"已切换到3G网络";
+NSString * const _kSUNetworkChange3G4G                  =       @"已切换到3G/4G网络";
 NSString * const _kSUNetworkChangeWiFi                =       @"已切换到WiFi网络";
 NSString * const _kSUNoneNetworkIsNone                =       @"亲、当前无网络,请连接网络后重试";
 
